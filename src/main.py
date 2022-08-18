@@ -5,11 +5,7 @@ import time
 
 from mysql_utils import *
 from classic_utils import *
-from pyrogram_utils import *
-
-users_list = []
-
-
+from pyrogram_utils import app
 
 if __name__ == '__main__':
 	print_log("Hello World!")
