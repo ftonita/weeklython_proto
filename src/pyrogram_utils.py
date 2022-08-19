@@ -36,6 +36,9 @@ async def getUserState(user_id, row):
 	state = database_select_user_row(user_id, row)
 	return state
 
+async def getPassState(pass_id, row):
+	state = database_select_pass_row(pass_id, row)
+	return state
 
 async def simpleMessage(message, text):
 	await app.send_message(message.chat.id, text)
