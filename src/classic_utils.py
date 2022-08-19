@@ -15,11 +15,10 @@ class User():
 
 class Pass():
 	def __init__(self):
-		self.pass_id = -1
 		self.inviter_id = ""
 		self.guest_name = ""
+		self.doc_number = ""
 		self.start_datetime = datetime.datetime(-1, -1, -1)
-		self.duration = -1
 		self.status = -1
 		self.campus = -1
 
